@@ -1,0 +1,26 @@
+{
+  "name": "tguess",
+  "description": "Generate \"guess\" and \"tguess\" components for Arkose Labs Funcaptcha",
+  "author": "bc",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.{ts,js}\""
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "license": "GNU",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "prettier": "^1.13.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0",
+    "tguess": "^1.0.1"
+  }
+}
